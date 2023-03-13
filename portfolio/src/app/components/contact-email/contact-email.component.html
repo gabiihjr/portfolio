@@ -1,0 +1,17 @@
+<div class="form-container">
+  <form [formGroup]="emailForm" (ngSubmit)="sendEmail(emailForm.value)">
+    <div>
+      <label for="email">Email</label>
+      <input type="email" name="email" placeholder="Email" formControlName="email">
+    </div>
+    <div>
+      <label for="_subject">Subject</label>
+      <input type="text" name="_subject" placeholder="Email Subject" formControlName="_subject">
+    </div>
+    <div>
+      <label for="message">Message</label>
+      <textarea formControlName="message" name="message" placeholder="Type your message here."></textarea>
+    </div>
+    <button type="submit" [disabled]="!emailForm.valid">Send</button>
+  </form>
+</div>
