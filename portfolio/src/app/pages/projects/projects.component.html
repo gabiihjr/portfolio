@@ -1,0 +1,25 @@
+<div class="project-container">
+  <div class="project-div col-5" *ngFor="let project of projects">
+    <div *ngIf="project.projectType === 'Study'">
+      <div class="d-flex title">
+        <h2>{{ project.title }}</h2>
+        <a target="_blank" [href]="project.githubUrl">
+          <img class="github-icon" src="../../assets/github-mark-white.png" alt="Link to Github Project">
+        </a>
+        <a *ngIf="project.websiteUrl" target="_blank" [href]="project.websiteUrl">
+          <span class="material-symbols-outlined link-icon">
+            link
+          </span>
+        </a>
+        <p class="project-type">Study Project</p>
+      </div>
+      <p> {{ project.description }}</p>
+      <p> <b>Stacks:</b> {{ project.stacks }} </p>
+      <p> <b>Authors:</b> {{ project.authors }}</p>
+      <p> <b>Technologies:</b> </p>
+      <div class="d-flex tech-container">
+        <p class="tech" *ngFor="let tech of project.technologies">{{ tech }}</p>
+      </div>
+    </div>
+  </div>
+</div>

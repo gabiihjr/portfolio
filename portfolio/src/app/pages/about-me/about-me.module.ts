@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AboutMeComponent } from './about-me.component';
-import { HeaderModule } from 'src/app/components/header/header.module';
 import { RouterModule } from '@angular/router';
 
 @NgModule({
@@ -10,7 +9,6 @@ import { RouterModule } from '@angular/router';
   ],
   imports: [
     CommonModule,
-    HeaderModule,
     RouterModule
   ],
   exports: [AboutMeComponent],

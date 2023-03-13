@@ -1,7 +1,7 @@
 .about-me-container{
   display: flex;
   align-items: center;
-  margin: 15vh 0 0 10vw;
+  margin: 15vh 0 15vh 10vw;
   gap: 5vw;
   text-align: justify;
 }

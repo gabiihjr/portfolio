@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { ProjectsComponent } from './pages/projects/projects.component';
 
 const routes: Routes = [
   {
@@ -19,6 +20,11 @@ const routes: Routes = [
     path: 'about',
     pathMatch: 'full',
     component: AboutMeComponent
+  },
+  {
+    path: 'projects',
+    pathMatch: 'full',
+    component: ProjectsComponent
   },
   {
     path: 'contact',
