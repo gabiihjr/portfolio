@@ -1,17 +1,17 @@
-<div class="form-container">
-  <form [formGroup]="emailForm" (ngSubmit)="sendEmail(emailForm.value)">
-    <div>
-      <label for="email">Email</label>
-      <input type="email" name="email" placeholder="Email" formControlName="email">
+<div class="email-container">
+  <form class="form-container d-flex flex-column" [formGroup]="emailForm" (ngSubmit)="sendEmail(emailForm.value)">
+    <div class="mb-3">
+      <label class="form-label" for="email">Email</label>
+      <input class="form-control" type="email" name="email" placeholder="Email" formControlName="email">
     </div>
-    <div>
-      <label for="_subject">Subject</label>
-      <input type="text" name="_subject" placeholder="Email Subject" formControlName="_subject">
+    <div class="mb-3">
+      <label class="form-label" for="_subject">Subject</label>
+      <input class="form-control" type="text" name="_subject" placeholder="Email Subject" formControlName="_subject">
     </div>
-    <div>
-      <label for="message">Message</label>
-      <textarea formControlName="message" name="message" placeholder="Type your message here."></textarea>
+    <div class="mb-3">
+      <label class="form-label" for="message">Message</label>
+      <textarea class="form-control" formControlName="message" name="message" placeholder="Type your message here."></textarea>
     </div>
-    <button type="submit" [disabled]="!emailForm.valid">Send</button>
+    <button class="btn btn-dark" type="submit" [disabled]="!emailForm.valid">Send</button>
   </form>
 </div>

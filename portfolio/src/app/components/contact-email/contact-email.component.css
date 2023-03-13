@@ -1,13 +1,24 @@
-.form-container{
-  color: black;
+.email-container{
+  margin-left: 25vw;
+  width: 50vw;
+  color: white;
+  background: rgba(89, 79, 129, 0.21);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(16.9px);
+  border-radius: 16px;
+  padding: 24px;
 }
 
-button {
-  color: black;
+.input-container{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
+
 input{
-  color: black;
+  margin-bottom: 16px;
 }
 textarea{
-  color: black;
+  border-radius: 4px;
 }
