@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AboutMeComponent } from './about-me.component';
-import { HeaderModule } from 'src/app/components/header/header.module';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -9,7 +9,7 @@ import { HeaderModule } from 'src/app/components/header/header.module';
   ],
   imports: [
     CommonModule,
-    HeaderModule
+    RouterModule
   ],
   exports: [AboutMeComponent],
 })

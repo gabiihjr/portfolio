@@ -1,13 +1,20 @@
 .about-me-container{
   display: flex;
   align-items: center;
-  margin: 15vh 0 0 10vw;
+  margin: 15vh 0 15vh 10vw;
   gap: 5vw;
   text-align: justify;
 }
 
 .writing {
   width: 50vw;
+  color: white;
+  background: rgba(89, 79, 129, 0.21);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(16.9px);
+  border-radius: 16px;
+  padding: 24px;
 }
 
 h2{
@@ -27,6 +34,7 @@ img {
 }
 
 a{
-  text-decoration: underline;
+  color: white;
+  text-decoration: underline !important;
   cursor: pointer;
 }

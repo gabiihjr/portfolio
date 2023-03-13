@@ -1,3 +1,4 @@
+import { ProjectsModule } from './pages/projects/projects.module';
 import { HomeModule } from './pages/home/home.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -17,7 +18,8 @@ import { ContactModule } from './pages/contact/contact.module';
     HomeModule,
     AboutMeModule,
     HeaderModule,
-    ContactModule
+    ContactModule,
+    ProjectsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

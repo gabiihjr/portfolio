@@ -1,0 +1,15 @@
+.title{
+  margin: 5vh 0 3vh 0;
+}
+
+.icon-container{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 3vh;
+}
+
+.icon{
+  height: 45px;
+  width: 45px;
+}
