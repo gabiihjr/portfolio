@@ -2,7 +2,6 @@
   margin-top: 5vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  justify-items: center;
   margin-bottom: 5vh;
 }
 

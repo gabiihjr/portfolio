@@ -1,7 +1,6 @@
 .about-me-container{
   display: flex;
   align-items: center;
-  margin: 15vh 0 15vh 10vw;
   gap: 5vw;
   text-align: justify;
 }
@@ -23,12 +22,12 @@ h2{
 }
 
 p{
-  font-size: 24px;
+  font-size: 16px;
   margin-bottom: 8px;
 }
 
 img {
-  border-radius: 100%;
+  border-radius: 24px;
   height: 250px;
   width: 250px;
 }
