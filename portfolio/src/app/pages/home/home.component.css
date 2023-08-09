@@ -1,9 +1,17 @@
 .home-container{
+  /* margin-top: 80px; */
+  margin: 104px 100px 24px 100px;
+}
+
+.welcome-container{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 160px 0px 0px 260px;
   gap: 24px;
+}
+
+.about-me-container{
+  margin: 48px 0;
 }
 
 .icon-container{
@@ -18,7 +26,7 @@
 }
 
 h2{
-  font-size: 72px;
+  font-size: 64px;
 }
 
 p{
